@@ -5,10 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultora de Arquitetura</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 5px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        .hero {
+            text-align: center;
+            padding: 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .feature {
+            flex: 1 1 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 
-  <body>
-<elevenlabs-convai agent-id="8drHcMlAwj4AEwo4Qhvw"></elevenlabs-convai><script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+<body>
+    <elevenlabs-convai agent-id="8drHcMlAwj4AEwo4Qhvw"></elevenlabs-convai>
+    <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
     <header>
         <nav>
             <ul>
@@ -45,6 +110,3 @@
     </footer>
 </body>
 </html>
-
-<body>
-</body>
