@@ -5,33 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultora de Arquitetura</title>
     <style>
-        body {
+        body, html {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            width: 100%;
+            height: 100vh;
             background-color: #f4f4f4;
-            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
             background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"%3E%3Crect x="20" y="20" width="60" height="60" fill="%2390a4ae"/%3E%3Crect x="30" y="30" width="5" height="5" fill="%23333"/%3E%3Crect x="40" y="30" width="5" height="5" fill="%23333"/%3E%3Crect x="50" y="30" width="5" height="5" fill="%23333"/%3E%3Crect x="60" y="30" width="5" height="5" fill="%23333"/%3E%3Crect x="30" y="40" width="5" height="5" fill="%23333"/%3E%3Crect x="40" y="40" width="5" height="5" fill="%23333"/%3E%3Crect x="50" y="40" width="5" height="5" fill="%23333"/%3E%3Crect x="60" y="40" width="5" height="5" fill="%23333"/%3E%3C/svg%3E');
             background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        header {
-            background: rgba(51, 51, 51, 0.8);
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-        .hero {
-            text-align: center;
-            padding: 20px;
         }
         footer {
             background: rgba(51, 51, 51, 0.8);
             color: white;
             text-align: center;
-            padding: 10px;
+            width: 100%;
+            padding: 5px;
         }
     </style>
 </head>
@@ -39,12 +33,8 @@
     <elevenlabs-convai agent-id="8drHcMlAwj4AEwo4Qhvw"></elevenlabs-convai>
     <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 
-    <header></header>
-    
-    <section id="home" class="hero">
-        <!-- No placeholder image -->
-    </section>
-    
-    <footer></footer>
+    <footer>
+        <p>&copy; 2025 Consultora de Arquitetura. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
